@@ -3,7 +3,7 @@ A variety of open-source (e.g. QuPath) and commerical (e.g. Imaris) image analys
 
 This functionality was missing (as far as I know in 2018 when I wrote these macros!) in ImageJ/Fiji, one of the most widely-used image analayis software by the biomedical community.   
 
-Therefore, I wrote a series of three ImageJ macros to measure shorest distance between:
+Therefore, I wrote a series of four ImageJ/Fiji macros to measure shortest distances between:
 1. [Point ROIs to 2D ROIs](Point_ROIs_to_2D_ROIs.md)
 2. [Point ROIs to line ROIs](Point_ROIs_to_line_ROIs.md)
 3. [Point ROIs to point ROIs](Point_ROIs_to_point_ROIs.md)
