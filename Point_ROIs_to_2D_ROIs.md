@@ -6,3 +6,5 @@ Following image shows points selected with a multipoint tool in ImageJ and added
 2D area ROIs are shown in yellow and added individually in the ROI Manager.
 
 Goal is to find the shortest distance of each point to the nearest 2D area.
+
+![image](data/point_to_2D_summary.png)
