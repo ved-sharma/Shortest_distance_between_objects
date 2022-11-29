@@ -49,7 +49,7 @@ Similar to cases 1 and 2, this macro can also be run with the "Exclude" option t
 ![image](data/points_to_points_ss_output2.png)
 
 ## Case 4: 2D ROIs to 2D ROIs  
-#### <a href="https://github.com/ved-sharma/Shortest_distance_between_objects/blob/b85ff5343963e2bb42f489bd06e1d0ac7d65a37d/data/Shortest_distance%20points%20to%20points_v01b.ijm" download>Download macro<a/> 
+#### <a href="https://github.com/ved-sharma/Shortest_distance_between_objects/blob/f444d3713505478254fc0fdf5471539af0b22664/data/Shortest_distance%20between%202D%20objects_v03.ijm" download>Download macro<a/> 
 
 Object 1 = a set of 2D areas (ROI set 1, white), Object 2 = another set of 2D areas (ROI set 2, yellow)  
 
