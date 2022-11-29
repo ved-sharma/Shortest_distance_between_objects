@@ -48,13 +48,25 @@ Similar to cases 1 and 2, this macro can also be run with the "Exclude" option t
 
 ![image](data/points_to_points_ss_output2.png)
 
-## Case 4: 2D ROIs to 2D ROIs- WORK IN PROGRESS  
-#### Downaload macro  
-Object 1 = a set of 2D areas, Object 2 = another set of 2D areas
+## Case 4: 2D ROIs to 2D ROIs  
+#### <a href="https://github.com/ved-sharma/Shortest_distance_between_objects/blob/b85ff5343963e2bb42f489bd06e1d0ac7d65a37d/data/Shortest_distance%20points%20to%20points_v01b.ijm" download>Download macro<a/> 
 
-Following image shows 2 sets of 2D areas (composite ROI set 1 in yellow and composite ROI set 2 in white) added to the ROI Manager.
+Object 1 = a set of 2D areas (ROI set 1, white), Object 2 = another set of 2D areas (ROI set 2, yellow)  
 
-Goal is to find the shortest distance of each of the 2D areas in set 1 to the nearest 2D area in set 2.  
+If there are multiple ROIs in each set, they need to be combined to create a [composite ROI](https://imagej.nih.gov/ij/docs/guide/146-10.html#sub:Composite-selections)  
+To create a composite ROI, select all the ROIs in the ROI manager and click on ***More >> OR (Combine)*** and then press **t** to add the composite ROI to the end of the ROI list. Delete all the individual ROIs.  
+
+![image](data/2D_to_2D_ss_input.png)
+
+After running the macro, you get the shortest distance (shown in cyan) of each 2D area in set 1 with the 2D areas in set 2. 
+
+![image](data/2D_to_2D_ss_output1.png)
+
+Similar to other cases, this macro can also be run with the "Exclude" option to exclude all the 2D areas in set 1 which are close to the image boundary and the shortest distance can not be determined for them.  
+
+![image](data/2D_to_2D_ss_output2.png)
+
+
 
 # How to cite
 Sharma VP, Tang B, Wang Y, Duran CL, Karagiannis GS, Xue EA, Entenberg D, Borriello L, Coste A, Eddy RJ, Kim G, Ye X, Jones JG, Grunblatt E, Agi N, Roy S, Bandyopadhyaya G, Adler E, Surve CR, Esposito D, Goswami S, Segall JE, Guo W, Condeelis JS, Wakefield LM, Oktay MH. Live tumor imaging shows macrophage induction and TMEM-mediated enrichment of cancer stem cells during metastatic dissemination. Nat Commun. 2021 Dec 15;12(1):7300. doi: 10.1038/s41467-021-27308-2. PMID: 34911937; PMCID: PMC8674234.
