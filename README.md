@@ -33,15 +33,20 @@ Similar to case 1, this macro can also be run with the "Exclude" option to exclu
 
 ![image](data/points_to_lines_ss_output2.png)
 
-## Case 3: Point ROIs to point ROIs- WORK IN PROGRESS  
-#### Downaload macro  
-Object 1 = a set of points (multipoints), Object 2 = another set of points (multipoints)
+## Case 3: Point ROIs to point ROIs  
+#### <a href="https://github.com/ved-sharma/Shortest_distance_between_objects/blob/b85ff5343963e2bb42f489bd06e1d0ac7d65a37d/data/Shortest_distance%20points%20to%20points_v01b.ijm" download>Download macro<a/> 
 
-Following image shows points selected with a multipoint tool in ImageJ and added as the 1st entry in the ROI Manager.
+Input image has a set of points (multipoint ROI in white) as set 1 and another set of points (multipoint ROI in yellow) as set 2, added to the ROI Manager  
 
-Another set of points are also added to the ROI Manager as the second entry.
+![image](data/points_to_points_ss_input.png)
 
-Goal is to find the shortest distance of each point in set 1 to the nearest point in set 2.
+After running the macro, you get the shortest distance (shown in cyan) of each point in set 1 with the points in set 2. 
+
+![image](data/points_to_points_ss_output1.png)
+
+Similar to cases 1 and 2, this macro can also be run with the "Exclude" option to exclude all the points in set 1 which are close to the image boundary and the shortest distance can not be determined for them.  
+
+![image](data/points_to_points_ss_output2.png)
 
 ## Case 4: 2D ROIs to 2D ROIs- WORK IN PROGRESS  
 #### Downaload macro  
