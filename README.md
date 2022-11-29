@@ -18,15 +18,20 @@ Goal is to find the shortest distance of each point to the nearest 2D area.
 
 ![image](data/point_to_2D_summary.png)
 
-## Case 2: Point ROIs to line ROIs- WORK IN PROGRESS  
-#### Downaload macro  
-Object 1 = a set of points (multipoints), Object 2 = line ROIs
+## Case 2: Point ROIs to line ROIs  
+#### <a href="https://github.com/ved-sharma/Shortest_distance_between_objects/blob/18edeefa2a9812b590492c58d3df162bfc17f1d3/data/Shortest_distance%20points%20to%20lines_v01b.ijm" download>Download macro<a/> 
 
-Following image shows points selected with a multipoint tool in ImageJ and added as the 1st entry in the ROI Manager.
+Input image has a set of points (multipoints in white) as object 1 and a line ROI (in yellow) as object 2, added to the ROI Manager  
 
-Line ROIs are shown in yellow and added individually in the ROI Manager.
+![image](data/points_to_lines_ss_input.png)
 
-Goal is to find the shortest distance of each point to the nearest line.
+After running the macro, you get the shortest distance (shown in cyan) of each of the points to the line ROI.  
+
+![image](data/points_to_lines_ss_output1.png)
+
+Similar to case 1, this macro can also be run with the "Exclude" option to exclude all the points close to the image boundary for which the shortest distance can not be determined.  
+
+![image](data/points_to_lines_ss_output2.png)
 
 ## Case 3: Point ROIs to point ROIs- WORK IN PROGRESS  
 #### Downaload macro  
