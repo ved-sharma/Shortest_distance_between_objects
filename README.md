@@ -1,4 +1,8 @@
-# ImageJ/Fiji macros for measuring shortest distance between two sets of objects in 2D
+# ImageJ/Fiji macros for measuring shortest distance between two sets of objects in 2D  
+**Use case:** Following immunofluorescence image from [publication](https://www.nature.com/articles/s41467-021-27308-2) shows mouse mammary tumor section with stem cells identified with a stem cells reporter (left image, white) and DAPI-stained nuclei (right image, white). The adjacent tissue section was stained for the blood vessel intravasation sites called TMEM (Tumor MicroEnvironment of Metastasis), from where TMEM ROIs (yellow) were transferred on the fluorescence images and then the shortest distance macro was run to calculate the shortest distance of stem cells and nuclei to the nearest TMEM (cyan lines).  
+
+![image](data/Distance_analysis_diagram.png)
+
 A variety of open-source (e.g. QuPath) and commerical (e.g. Imaris) image analysis softwares implement ways to measure the shortest distance between two sets of objects. 
 
 This functionality was missing (as far as I know when I wrote these macros in 2018!) in ImageJ/Fiji, one of the most popular image analayis software used by the biological sciences community.   
