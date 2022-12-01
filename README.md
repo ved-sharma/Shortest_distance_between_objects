@@ -1,7 +1,7 @@
 # ImageJ/Fiji macros for measuring shortest distance between two sets of objects in 2D
 A variety of open-source (e.g. QuPath) and commerical (e.g. Imaris) image analysis softwares implement ways to measure the shortest distance between two sets of objects. 
 
-This functionality was missing (as far as I know when I wrote these macros in 2018!) in ImageJ/Fiji, one of the most widely-used image analayis software used by the biomedical community.   
+This functionality was missing (as far as I know when I wrote these macros in 2018!) in ImageJ/Fiji, one of the most popular image analayis software used by the biological sciences community.   
 
 Therefore, I wrote a series of four ImageJ/Fiji macros to measure shortest distances between two sets of objects:
 
