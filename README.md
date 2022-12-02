@@ -18,7 +18,9 @@ Following image shows points selected with a multipoint tool in ImageJ and added
 
 2D area ROIs are shown in yellow in the image and added individually in the ROI Manager.
 
-Goal is to find the shortest distance of each point to the nearest 2D area.
+After running the macro, you get the shortest distance (shown in cyan) of each point to the nearest 2D area.
+
+Sometimes, it makes sense to exclude the points which are close to the image boundary from the analysis, because for these points shortest distance could have been to the 2D areas lying just outside the image boundary. The "Exclude" option can be used in such cases in the dialog box.
 
 ![image](data/point_to_2D_summary.png)
 
