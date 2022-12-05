@@ -46,7 +46,7 @@ Input image has a set of points (multipoint ROI in white) as set 1 and another s
 
 ![image](data/points_to_points_ss_input.png)
 
-After running the macro, you get the shortest distance (shown in cyan) of each point in set 1 with the points in set 2. 
+After running the macro, you get the shortest distance (shown in cyan) of each point in set 1 (white) with the points in set 2 (yellow). 
 
 ![image](data/points_to_points_ss_output1.png)
 
